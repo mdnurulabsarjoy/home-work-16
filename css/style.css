@@ -1,0 +1,123 @@
+/* Common Css Start */
+body{
+    font-family: 'Open Sans', sans-serif;
+ }
+ h1,h2,h3,h4,h5,h6,p,small,ul,ol,button{
+   margin: 0;
+   padding: 0;
+}   
+
+ a{
+    text-decoration: none;
+ }
+
+/* // Common Css End
+/* Nav Section Start */
+#nav{
+    background: #02918c;
+ }
+ #nav ul li a{
+    font-size: 12px;
+    font-weight: 800;
+    color: #fff;
+    padding: 21px 25px;
+    text-transform: uppercase
+ }
+ #nav ul li:hover a{
+    background: #cfc91d;
+ }
+/* // Nav Section End
+/* Banner Sectiom Start */
+#banner{
+    background-image: url(../image/banner_bg.jpg);
+    height: 730px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+ }
+ #banner::after{
+    position: absolute;
+    content: '';
+    background: black;
+    inset: 0;
+    opacity: .6;
+    z-index: -1;
+ }
+ #banner .banner_content h3{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 400;
+ }
+ #banner .banner_content h1{
+    font-size: 68px;
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+ }
+ #banner .banner_content p{
+    font-size: 18px;
+    color: #fff;
+ }
+ #banner .banner_content img{
+    display: block;
+    margin: 50px auto;
+ }
+ #banner .banner_content a{
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #0b1016;
+    background: #cfc91d;
+    padding:19px 42px;
+    display: inline-block;
+ }
+
+/* // Banner Section End */
+/* About Section Start */
+#about{
+   padding: 85px 0;
+}
+#about .about_item_container{
+   margin-top: 80px;
+}
+#about .about_item{
+   border-right: 1px solid #7e8287;
+   padding: 50px;
+}
+#about .about_item:last-child{
+   border-right: 0;
+}
+#about .about_item i{
+   color: #02918c;
+   font-size: 40px;
+}
+#about .about_item h3{
+   font-size: 16px;
+   font-weight: 800;
+   color: #7e8287;
+   margin: 19px 0;
+}
+#about .about_item p{
+   font-size: 11px;
+   color: #7e8287;
+} 
+.section_info h2{
+   font-size: 46px;
+   color: #02918c;
+   font-weight: 800;
+   text-transform: uppercase;
+}
+.section_info p{
+   font-size: 16px;
+   color: #7e8287;
+   line-height: 41px;
+}
+.section_info p b{
+   font-size: 23px;
+   font-weight: 800;
+}
+/* // About Section End */
+/* Service Section Start *
+/* // Service Section End */
